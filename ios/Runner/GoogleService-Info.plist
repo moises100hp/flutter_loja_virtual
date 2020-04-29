@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>887270736981-919acfbh8ig4dt4e56pa258ojlb01etf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.887270736981-919acfbh8ig4dt4e56pa258ojlb01etf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6XGXXBYZqhcDDBNjynohoLEPWeFtsxIs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>887270736981</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>moises.com.br.lojaVirtual</string>
+	<key>PROJECT_ID</key>
+	<string>lojavirtual-5425f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lojavirtual-5425f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:887270736981:ios:3b445869e21667355a40dc</string>
+	<key>DATABASE_URL</key>
+	<string>https://lojavirtual-5425f.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "887270736981",
+    "firebase_url": "https://lojavirtual-5425f.firebaseio.com",
+    "project_id": "lojavirtual-5425f",
+    "storage_bucket": "lojavirtual-5425f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887270736981:android:525bac7dec4a3ca75a40dc",
+        "android_client_info": {
+          "package_name": "moises.com.br.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887270736981-hohf95jg8nqlqskk87vj84rv1ot0lldn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0SRQqSkBPOnGzTHgV2TAF8qjPg2hJsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887270736981-hohf95jg8nqlqskk87vj84rv1ot0lldn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
