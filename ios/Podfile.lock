@@ -386,7 +386,7 @@ SPEC CHECKSUMS:
   cloud_firestore: 10fd4a09ebffc33efd64708106e2e7de701fe9ae
   Firebase: 2672e5636b42f977177716317e68346ae5e9de25
   firebase_auth: 00d6e1ab6d890cd6d3c624df61702e3a7072d1e3
-  firebase_core: 0c84455537bed6d6b5b8c2dd611ff1fbb1ea5cbd
+  firebase_core: 0d8be0e0d14c4902953aeb5ac5d7316d1fe4b978
   firebase_core_web: d501d8b946b60c8af265428ce483b0fff5ad52d1
   firebase_messaging: b25b2fa94e685146bcf9d706ed87b4e95cd2a17d
   FirebaseAnalytics: cf95d3aab897612783020fbd98401d5366f135ee
@@ -413,7 +413,7 @@ SPEC CHECKSUMS:
   path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Protobuf: 0e94afe3b47cb11876eb6aee296638711a24bf75
-  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
   url_launcher_macos: fd7894421cd39320dce5f292fc99ea9270b2a313
   url_launcher_web: e5527357f037c87560776e36436bf2b0288b965c
 

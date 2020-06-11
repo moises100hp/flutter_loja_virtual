@@ -27,6 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   "CRIAR CONTA",
                   style: TextStyle(
                     fontSize: 15.0,
+                    color: Colors.white
                   ),
                 ),
                 onPressed: () {
@@ -48,6 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         controller: _emailController,
                         decoration: InputDecoration(hintText: "E-mail"),
                         keyboardType: TextInputType.emailAddress,
+                        // ignore: missing_return
                         validator: (text) {
                           if (text.isEmpty ||
                               !text.contains("@") ||
@@ -59,6 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         controller: _passController,
                         decoration: InputDecoration(hintText: "senha"),
                         obscureText: true,
+                        // ignore: missing_return
                         validator: (text) {
                           if (text.isEmpty || text.length <= 6)
                             return "Senha inválida!";

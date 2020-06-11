@@ -44,7 +44,7 @@ class CustomDrawer extends StatelessWidget {
                       left: 0.0,
                       child: Wrap(
                         children: <Widget>[
-                        Text("Flutter's \nRestaurant",
+                        Text("Flutter's \nClothes",
                         style: TextStyle(fontSize: 34.0,
                           fontWeight: FontWeight.bold
                         ),

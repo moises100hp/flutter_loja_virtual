@@ -24,7 +24,7 @@ class _SignupScreenState extends State<SignupScreen> {
       key: _scaffoldKey,
       appBar: AppBar(
 
-        title: Text("Criar Conta"),
+        title: Text("Criar Conta", style: TextStyle(color: Colors.white)),
         centerTitle: true,
         actions: <Widget>[
         ],
