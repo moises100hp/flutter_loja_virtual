@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:loja_virtual/datas/product_data.dart';
 
@@ -18,8 +16,9 @@ class CartProduct {
 
   CartProduct.fromDocument(DocumentSnapshot document){
     cid = document.documentID;
-    category = document.data["catefory"];
-    pid = document.data["quantity"];
+    category = document.data["category"];
+    pid = document.data["pid"];
+    quantity = document.data["quantity"];
     size = document.data["size"];
   }
 
