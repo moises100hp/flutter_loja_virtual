@@ -28,7 +28,7 @@ class ProductData {
     return{
       "title": title,
       "description": description,
-      "product": productData.toResumedMap()
+      "price": price
     };
   }
 

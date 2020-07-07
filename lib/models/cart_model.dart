@@ -100,12 +100,10 @@ class CartModel extends Model {
     double shipPrice = getShipPrice();
     double discount = getDiscount();
 
-    DocumentReference refOrder = await Firestore.instance.collection("orders")
-        .add(
+    DocumentReference refOrder = await Firestore.instance.collection("orders").add(
         {
           "clientId": user.firebaseUser.uid,
-          "products": products.map((cartProduct) => cartProduct.toMap())
-              .toList(),
+          "products": products.map((cartProduct) => cartProduct.toMap()).toList(),
           "shipPrice": shipPrice,
           "productsPrice": productsPrice,
           "discount": discount,
@@ -133,7 +131,6 @@ class CartModel extends Model {
     discountPercentege = 0;
 
     isLoading = false;
-
     notifyListeners();
 
     return refOrder.documentID;
@@ -146,8 +143,7 @@ class CartModel extends Model {
         .collection("cart")
         .getDocuments();
 
-    products =
-        query.documents.map((doc) => CartProduct.fromDocument(doc)).toList();
+    products = query.documents.map((doc) => CartProduct.fromDocument(doc)).toList();
 
     notifyListeners();
   }
