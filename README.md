@@ -1,16 +1,12 @@
-# loja_virtual
+# Loja virtual com Flutter
 
 Loja produtos criada com o flutter
 
-## Getting Started
+Tela inicial.
 
-This project is a starting point for a Flutter application.
+/Users/moisesgs/Desktop/Captura de Tela 2020-07-08 às 20.22.03.png
 
-A few resources to get you started if this is your first Flutter project:
+Drawer customizado.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+/var/folders/l7/01htzh1n0ng49b76xvvr1x0r0000gp/T/TemporaryItems/(Um Documento Sendo Salvo Por screencaptureui 2)/Captura de Tela 2020-07-08 às 20.30.26.png
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
